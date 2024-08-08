@@ -7,27 +7,27 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("26602863"))
+API_HASH = getenv("44a687eb7cac4df75d9332a65eece369")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7032716003:AAFciDiTLx9iPFSCbVjVDpmG-oX0eIPZlE0")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "MissBroken_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "shizuka_song_bot")
 
 # Don't Add style font 
 BOT_USERNAME2 = getenv("BOT_USERNAME2" , "miss Broken")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sung:sung@cluster0.eruyz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("1002056908015"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("5787354656"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
     # Don't edit variables below this line #
-SUDO_USERS = [6566179661, 6415940074]
+SUDO_USERS = [6566179661, 6415940074, 1886390680]
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -70,7 +70,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BAD_STRING_SESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGV7W8Ap-q3BQV3o-ppxqTGy6v6HOjPmdY7mlKtjdc_QBcmikkVs1XdviR3JDD2v_gwoYjM0EHpAcCW7kGCS4GZIkoh_PEg44A6w51xs2LuwbyPEtkxiTPMnIOejFp1X96enrIoG5AOKKaTa6IhwNDNLQgZ2MhiA6gbowo1eMnCKEWSrqKcFbEmEzph74s3XbuaRf43INtu9q0U3o3Ip0JTFJI3EDpBjaud3Bu9AKfRAXK70bDBOm5ZgZGsjCVPhGjlzuSwelIqNkXrAoxZYiFfyL3Qur0IlXueV0mA4cKJ9XPplL8wF33RmGzMSPBl6TBoOkF8aGdNCScEAoR51xbr2PG2UwAAAAG93uJyAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -104,14 +104,14 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/a199c1adfa09d02786ca7.jpg"
+    "START_IMG_URL", "https://mallucampaign.in/images/img_1723124681.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/0661f62601d0decde581f.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/559e9b45fe937d650b834.mp4"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/cbb216bd1e84c83bce233.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/51badb4aba8d2b7534604.mp4"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/bd3be91cf02a8e4373894.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
